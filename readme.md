@@ -21,7 +21,7 @@ You need to have `.env` to the root
 1)  If you are running **Laravel 5 or above** :
 
 ```
-composer require mamun2074/laravel-installer:1.9.0
+composer require mamun2074/project-installer
 ```
 OR add this line to `composer.json`
 
