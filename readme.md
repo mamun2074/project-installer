@@ -21,23 +21,23 @@ You need to have `.env` to the root
 1)  If you are running **Laravel 5 or above** :
 
 ```
-composer require Mamun2074/laravel-installer:1.9.0
+composer require mamun2074/laravel-installer:1.9.0
 ```
 OR add this line to `composer.json`
 
 ```
 "require": {
-    "Mamun2074/laravel-installer": "1.9.0"
+    "mamun2074/project-installer": "dev-master"
 }
 ```
 2)  If you are running **Laravel 11 or above** :
 ```
-composer require Mamun2074/laravel-installer:11.0.0
+composer require mamun2074/project-installer
 ```
 OR add this line to `composer.json`
 ```
 "require": {
-    "Mamun2074/laravel-installer": "11.0.0"
+    "mamun2074/project-installer": "dev-master",
 }
 ```
 
@@ -74,7 +74,4 @@ You will notice additional files and folders appear in your project :
 
 ## Installing your application
 - **Install:** In order to install your application, go to the `/install` url and follow the instructions.
-## Screenshots
- 
-![Laravel web installer](http://public.froid.works/knap1.png)
 
