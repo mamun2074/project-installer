@@ -23,13 +23,13 @@
             <label class="col-sm-2 control-label">Hostname</label>
 
             <div class="col-sm-10">
-                <input type="text" name="hostname" class="form-control" >
+                <input autocomplete="off" type="text" name="hostname" class="form-control" >
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-2 control-label">Username</label>
             <div class="col-sm-10">
-                <input type="text" name="username" class="form-control">
+                <input autocomplete="off" type="text" name="username" class="form-control">
             </div>
         </div>
         <div class="form-group">
@@ -41,7 +41,7 @@
         <div class="form-group">
             <label class="col-sm-2 control-label">Database</label>
             <div class="col-sm-10">
-                <input type="text" name="database" class="form-control">
+                <input autocomplete="off" type="text" name="database" class="form-control">
             </div>
         </div>
         <div class="modal-footer">
