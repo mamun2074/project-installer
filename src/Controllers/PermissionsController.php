@@ -1,10 +1,10 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Controllers;
+namespace Mamun2074\LaravelInstaller\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Routing\Controller;
-use Froiden\LaravelInstaller\Helpers\PermissionsChecker;
+use Mamun2074\LaravelInstaller\Helpers\PermissionsChecker;
 
 class PermissionsController extends Controller
 {

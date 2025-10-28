@@ -1,19 +1,20 @@
 {
-  "name": "froiden/laravel-installer",
+  "name": "mamun2074/project-installer",
   "description": "Laravel web installer",
   "license": "MIT",
   "type": "library",
-
   "authors": [
     {
-      "name": "Ajay Kumar Choudhary",
-      "email": "ajay@froiden.com"
+      "name": "MD AL MAHMUD",
+      "email": "mamun120520@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "php": "^8.0"
+  },
   "autoload": {
     "psr-4": {
-      "Froiden\\LaravelInstaller\\": "src/"
+      "Mamun2074\\LaravelInstaller\\": "src/"
     },
     "files": [
       "src/functions.php"

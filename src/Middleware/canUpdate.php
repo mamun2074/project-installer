@@ -1,10 +1,10 @@
 <?php
 
-    namespace Froiden\LaravelInstaller\Middleware;
+    namespace Mamun2074\LaravelInstaller\Middleware;
 
     use Closure;
-    use Froiden\LaravelInstaller\Helpers\MigrationsHelper;
-    use Froiden\LaravelInstaller\Middleware\canInstall;
+    use Mamun2074\LaravelInstaller\Helpers\MigrationsHelper;
+    use Mamun2074\LaravelInstaller\Middleware\canInstall;
 
     class canUpdate
     {

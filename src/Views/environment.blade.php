@@ -2,7 +2,7 @@
 
 @section('title', trans('installer_messages.environment.title'))
 @section('style')
-    <link href="{{ asset('installer/froiden-helper/helper.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('installer/Mamun2074-helper/helper.css') }}" rel="stylesheet"/>
     <style>
         .form-control{
             height: 14px;
@@ -66,7 +66,7 @@
 @stop
 @section('scripts')
     <script src="{{ asset('installer/js/jQuery-2.2.0.min.js') }}"></script>
-    <script src="{{ asset('installer/froiden-helper/helper.js')}}"></script>
+    <script src="{{ asset('installer/Mamun2074-helper/helper.js')}}"></script>
     <script>
         $.ajaxSetup({
             headers: {

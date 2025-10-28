@@ -1,6 +1,6 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Request;
+namespace Mamun2074\LaravelInstaller\Request;
 
 
 

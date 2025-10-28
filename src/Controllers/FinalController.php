@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Controllers;
+namespace Mamun2074\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use Froiden\LaravelInstaller\Helpers\InstalledFileManager;
+use Mamun2074\LaravelInstaller\Helpers\InstalledFileManager;
 
 class FinalController extends Controller
 {

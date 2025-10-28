@@ -1,10 +1,10 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Providers;
+namespace Mamun2074\LaravelInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Froiden\LaravelInstaller\Middleware\canInstall;
+use Mamun2074\LaravelInstaller\Middleware\canInstall;
 
 class LaravelInstallerServiceProvider extends ServiceProvider
 {
@@ -58,7 +58,7 @@ class LaravelInstallerServiceProvider extends ServiceProvider
         ]);
 
         $this->publishes([
-            __DIR__.'/../Lang' => base_path('lang'),
+            __DIR__.'/../Lang/en/installer_messages.php' => base_path('resources/lang/main/installer_messages.php'),
         ]);
     }
 }

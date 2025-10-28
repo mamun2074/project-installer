@@ -1,7 +1,7 @@
 # Laravel Web Installer
 
-[![Packagist License](https://poser.pugx.org/froiden/laravel-installer/license)]()
-[![Total Downloads](https://poser.pugx.org/froiden/laravel-installer/d/total)](https://packagist.org/packages/froiden/laravel-installer)
+[![Packagist License](https://poser.pugx.org/Mamun2074/laravel-installer/license)]()
+[![Total Downloads](https://poser.pugx.org/Mamun2074/laravel-installer/d/total)](https://packagist.org/packages/Mamun2074/laravel-installer)
 
 Laravel Web installer checks for the following things and installs the application in one go.
 
@@ -21,23 +21,23 @@ You need to have `.env` to the root
 1)  If you are running **Laravel 5 or above** :
 
 ```
-composer require froiden/laravel-installer:1.9.0
+composer require Mamun2074/laravel-installer:1.9.0
 ```
 OR add this line to `composer.json`
 
 ```
 "require": {
-    "froiden/laravel-installer": "1.9.0"
+    "Mamun2074/laravel-installer": "1.9.0"
 }
 ```
 2)  If you are running **Laravel 11 or above** :
 ```
-composer require froiden/laravel-installer:11.0.0
+composer require Mamun2074/laravel-installer:11.0.0
 ```
 OR add this line to `composer.json`
 ```
 "require": {
-    "froiden/laravel-installer": "11.0.0"
+    "Mamun2074/laravel-installer": "11.0.0"
 }
 ```
 
@@ -45,7 +45,7 @@ After updating the composer, add the ServiceProvider to the providers array in `
 
 ```
 'providers' => [
-    Froiden\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+    Mamun2074\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
 ];
 ```
 
@@ -54,7 +54,7 @@ For laravel version 11.x and greater, add the serviceprovider to the providers a
 
 ```
 [
-    Froiden\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+    Mamun2074\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
 ];
 ```
 
@@ -62,7 +62,7 @@ For laravel version 11.x and greater, add the serviceprovider to the providers a
 
 Before using this package you need to run :
 ```bash
-php artisan vendor:publish --provider="Froiden\LaravelInstaller\Providers\LaravelInstallerServiceProvider"
+php artisan vendor:publish --provider="Mamun2074\LaravelInstaller\Providers\LaravelInstallerServiceProvider"
 ```
 
 You will notice additional files and folders appear in your project :

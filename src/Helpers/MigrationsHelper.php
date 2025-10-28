@@ -1,11 +1,11 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Helpers;
+namespace Mamun2074\LaravelInstaller\Helpers;
 use Illuminate\Support\Facades\DB;
 
 /**
  * Class MigrationsHelper
- * @package Froiden\LaravelInstaller\Helpers
+ * @package Mamun2074\LaravelInstaller\Helpers
  */
 
 trait MigrationsHelper

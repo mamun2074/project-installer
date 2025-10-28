@@ -1,14 +1,14 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Controllers;
+namespace Mamun2074\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use Froiden\LaravelInstaller\Helpers\EnvironmentManager;
-use Froiden\LaravelInstaller\Request\UpdateRequest;
+use Mamun2074\LaravelInstaller\Helpers\EnvironmentManager;
+use Mamun2074\LaravelInstaller\Request\UpdateRequest;
 
 /**
  * Class EnvironmentController
- * @package Froiden\LaravelInstaller\Controllers
+ * @package Mamun2074\LaravelInstaller\Controllers
  */
 class EnvironmentController extends Controller
 {

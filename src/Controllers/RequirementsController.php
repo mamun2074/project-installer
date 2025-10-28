@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Controllers;
+namespace Mamun2074\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use Froiden\LaravelInstaller\Helpers\RequirementsChecker;
+use Mamun2074\LaravelInstaller\Helpers\RequirementsChecker;
 
 class RequirementsController extends Controller
 {

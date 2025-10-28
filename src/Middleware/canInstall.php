@@ -1,13 +1,13 @@
 <?php
 
-namespace Froiden\LaravelInstaller\Middleware;
+namespace Mamun2074\LaravelInstaller\Middleware;
 
 use Closure;
 use DB;
 
 /**
  * Class canInstall
- * @package Froiden\LaravelInstaller\Middleware
+ * @package Mamun2074\LaravelInstaller\Middleware
  */
 
 class canInstall
